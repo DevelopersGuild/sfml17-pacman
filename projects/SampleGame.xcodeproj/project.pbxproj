@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB483751EE21A3200590635 /* MainCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BB483731EE21A3200590635 /* MainCharacter.cpp */; };
 		5F35EB571BC84F4300FCF070 /* ResourcePathMac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F35EB561BC84F4300FCF070 /* ResourcePathMac.mm */; };
 		5F35EB651BC84F5D00FCF070 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F35EB581BC84F5D00FCF070 /* FLAC.framework */; };
 		5F35EB661BC84F5D00FCF070 /* FLAC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F35EB581BC84F5D00FCF070 /* FLAC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -67,6 +68,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BB483731EE21A3200590635 /* MainCharacter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainCharacter.cpp; path = "../../../../../../../Volumes/Untitled/sfml17-pacman-master/sfml17-pacman-master/src/MainCharacter.cpp"; sourceTree = "<group>"; };
+		2BB483741EE21A3200590635 /* MainCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainCharacter.h; path = "../../../../../../../Volumes/Untitled/sfml17-pacman-master/sfml17-pacman-master/src/MainCharacter.h"; sourceTree = "<group>"; };
 		5F35EB531BC84F3800FCF070 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = SOURCE_ROOT; };
 		5F35EB551BC84F4300FCF070 /* ResourcePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourcePath.h; path = ../src/ResourcePath.h; sourceTree = SOURCE_ROOT; };
 		5F35EB561BC84F4300FCF070 /* ResourcePathMac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ResourcePathMac.mm; path = ../src/ResourcePathMac.mm; sourceTree = SOURCE_ROOT; };
@@ -157,6 +160,8 @@
 			children = (
 				5F35EB531BC84F3800FCF070 /* main.cpp */,
 				5F35EB551BC84F4300FCF070 /* ResourcePath.h */,
+				2BB483731EE21A3200590635 /* MainCharacter.cpp */,
+				2BB483741EE21A3200590635 /* MainCharacter.h */,
 				5F35EB561BC84F4300FCF070 /* ResourcePathMac.mm */,
 				5FB6B9921BD18FC600ACC995 /* Overlap.h */,
 				5FB6B9911BD18FC600ACC995 /* Overlap.cpp */,
@@ -261,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB483751EE21A3200590635 /* MainCharacter.cpp in Sources */,
 				5FB6B9931BD18FC600ACC995 /* Overlap.cpp in Sources */,
 				5F3A1B3C1BC8519100726EBF /* main.cpp in Sources */,
 				5F35EB571BC84F4300FCF070 /* ResourcePathMac.mm in Sources */,

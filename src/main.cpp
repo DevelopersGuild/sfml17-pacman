@@ -9,6 +9,8 @@ Developers: Andrew Lei, Ashley Cline, Lai Vang Lee, Quentin Monasterial, Tyler M
 #include <ctime>
 #include "ResourcePath.h"
 #include "Overlap.h"
+#include "MainCharacter.h"
+
 
 int main()
 {
@@ -16,6 +18,7 @@ int main()
      //window.setVerticalSyncEnabled(true); //Mac framerate is very fast
      window.setFramerateLimit(60);
 
+    MainCharacter pacman;
 
      //main game loop
      while (window.isOpen())
@@ -27,10 +30,11 @@ int main()
 			if (event.type == sf::Event::Closed)
 				window.close();
 		}
-
+        pacman.move(event);
+        
           //make sure that you follow this order!
 		window.clear();
-
+        pacman.draw(window);
           window.display();
 	}
 
