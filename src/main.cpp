@@ -1,6 +1,7 @@
 /*
 Developers' Guild - C++ SFML Spring 2017 Group
-
+Clone of a Pacman Game
+Developers: Andrew Lei, Ashley Cline, Lai Vang Lee, Quentin Monasterial, Tyler Matsunami, Ye Eun Myung
 */
 
 #include <SFML/Graphics.hpp>
